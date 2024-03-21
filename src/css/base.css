@@ -1,0 +1,48 @@
+body {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(12, 12, 12, 0.7);
+    background-color: #F3F3F3;
+}
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 375px) {
+   .container{
+    width: 375px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+   .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+   .container{
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+}
+
+.section {
+    padding: 30px 0;
+}
+
+@media only screen and (min-width: 768px) {
+   .section{
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+   .section{
+    padding: 50px 0;
+  }
+}

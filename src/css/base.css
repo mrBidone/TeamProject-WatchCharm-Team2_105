@@ -1,9 +1,10 @@
+
 body {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: rgba(12, 12, 12, 0.7);
-    background-color: #F3F3F3;
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
 }
 
 .container {

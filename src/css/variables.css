@@ -1,0 +1,14 @@
+:root {
+    --main-bg-color: #fbfbfb;
+    --card-bg-color: #f3f3f3;
+
+    --main-text-color: rgba(12, 12, 12, 0.7);
+    --secondary-text-color: #0c0c0c;
+    --light-text-color: #fbfbfb;
+    --opacity-text-color: rgba(251, 251, 251, 0.5);
+
+    --accent-color: #3350e9;
+
+    --default-duration: 250ms;
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

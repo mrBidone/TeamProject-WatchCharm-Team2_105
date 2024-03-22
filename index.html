@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     
     <script type="module" crossorigin src="/TeamProject-WatchCharm-Team2_105/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/TeamProject-WatchCharm-Team2_105/assets/index-f4544c9f.css">
+    <link rel="stylesheet" href="/TeamProject-WatchCharm-Team2_105/assets/index-8b28cc50.css">
   </head>
   <body>
     <section class="header container">
@@ -19,10 +19,61 @@
 </section>
 
   <main>
-    <section class="hero container">
-  
-  <h2>hero-section</h2>
-  <!-- Як почнете працювати видаліть цей заголовок, бо він тут тільки для тесту -->
+    <section class="hero-section container">
+  <div class="hero-wrapper">
+    <div class="hero-describe">
+      <h1 class="hero-title-main">
+        Welcome to our <span class="text-color-blue">collection</span> of
+        premium watches
+      </h1>
+      <p class="hero-text">
+        Our watches are not just timepieces, but also an expression of your
+        personality and lifestyle. From classic designs to modern ones, we have
+        a watch to suit every taste and occasion.
+      </p>
+    </div>
+    <div class="hero-wrapper-avatar-scroll">
+      <picture>
+        <source
+          srcset="/TeamProject-WatchCharm-Team2_105/assets/img_people_desktop-07de76b8.png 1x, /TeamProject-WatchCharm-Team2_105/assets/img_people_desktop@2x-dd7b920e.png 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/TeamProject-WatchCharm-Team2_105/assets/img_people_tablet-9e179baa.png 1x, /TeamProject-WatchCharm-Team2_105/assets/img_people_tablet@2x-380c5b10.png 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGwAAAAsCAMAAAC34K2TAAAC/VBMVEUAAAD7+/v7+/v7+/v8/Pz7+/v6+vr6+vr5+fn7+/v////5+fn8/Pz6+vr6+vr6+vr6+vr09PP7+/v29vb5+PgIDQ0jJzALDxDguJ/r6Ofy8vIGCwspGRDGmoK7l39xVUHw7+/yxKrbtZtUNygOEhLmxaqcbllhOiNFLiAmFQvs7Ov5z7fltZnKqZHZo4O4k3l6X0pWMhwgGBPrrpLLnYawi3F4UT1cPi0oIx7i29bHxcTu0rm6t7TzyrLpvaThsJbSl3/Un36NY06YZ0xlUURvTDdpQywwKCPi3tzc19DWzcfGv7jwvaXjwaTVr5bUqpHjrpDgqozYpYvPm3uphGzAi2qadl2Ha1V1YFNfSTyCVDslKjQjHho1IhfNyMLqy67gxK69s6zku6Lstp7puJmpn5bFn4jBk3qxhGyueVxrTj13TTVjQC9DNStNMSI9KR8vGxDc2tn5ybHar5eQkZTRoIfbnobBmn/LlXWkhXPHkXKqiXGremage2I0OUeKXERXSD89OzoqLzpnRjZcRTQ8JRkXEg0fEAjk4+Pk4t7S0dDOzMfszrbtxa3avqmgnJfTpYzhpYuwnIuvlYKOg3yvkHi2gGiTcWKKcFx7Z1t/YE52WkhJPjc6MSpsPiVLLBrz6+Xky7rgvaayrKXor5jPpIvLmHpwc3mSf3Kcg22+hmllZWeVfGWbfWS+hWG1fV5AQ0x+WEIgJS4aGxo4HxDm0cWtrKyhlYzKpYi/noWChIW6moPJk3uhi3i5i3NnX1iTbVendVZrWk5YU050Ri1MOCw3LSfw3NL618G9vLq/rqDUs5q7oJDYoX3DjHbCknDIj2qReWmhgGeRdV1SVluOaVWVZ1OCZk+XYUOLWjtlTTt+Sy4cHyfw1L7IuqzKtKKtpZvcrI+OioeaiIHZmIB1cW2be2t9bWSmdmKiblBOS0otMz+WVjosIRnx49qmpaDytZ/cp4WMeW9WWmVSQTHOwbfWwrCdj4l9ena9dGZEJBD83sifoaHroIuyZlhQeLJeAAAAEXRSTlMA74DAUNCwkHAgEFDf32BA4GCjxFgAAAtbSURBVFjDrZhlVBtZGIbLUsqWrk2AWCMkKUmQQKC4u7t7cXcp7lBcirtDgbZAt9SLFKm7u27dZV3O3ugkZffX7vuDc8gzM8/9vnsz596s+iwS68TXfCWCQIiIiYqvkxBC/50L51tREYRg1qz7H7lwVn8FuFTAh4KuuQWz0ZMVUuDfr7/5nEtJVuz9pbBwLlVH/l94Ul3TYNPjSkn4/hVZKwqYpPXYzU8lcX7LyxRm5n1IEnwktlaQQ1irXwqPWmr5aflZFur9A8ec3EWZlitLoMu9qIRgLpwvRViXWntGe5eUfOpu7ywpIe5sgFiXi3wJcwjzsIutsvQD0UpdwU9ezTeP7S0tKyulb1Gtgu8XyhegAeBRF5hMIpNI/OQ9Q7zJ9GysgCAINOMLHoeSFo9axnl7f4qz1FLdrbpb64Qwl2kw19DYZU4pTSyl5cdvOVrOvX+FSxKAoLYdnm2eFy8xNRvGmJ5jjSexEHtwX3A5ZrG7sDMi7Sz1Jv01Dqe6RbVOiMuPamoCm4bF0o3r168/90l8CHH5P7isduzYeSm3mcFQnz/EUL94iHFaG2IFgeBwSE/L8spWJ+fNPxi1UPN3aSTsfizERynxmsXFMTdMJyYn3MfHJ31wAWwuZPsSgYBYCdqx0yPXjUEm1+MZtQxGeOBPP0LcsUHs1Fl6b924ceNWYMsab3lmovUCK8AH6fR4SjzN9EhWhpJxRkaG+xFaO4/z522tCGfc2EYgu0g4RSanOA4Hyg6cOtV/l30xZ9wge7vdNnJlh8+25FDNujEC3LuUnlBK93GPeKDkrGTsCmQxCUnc0Yrw1qQYmFtWKmY8L+Wq73cgo8nk4VPVAwMOp37CsJ4FOCcPC9Q4MiMjo8PjOdTWF1iYV06X+vv70yYz0A8UDV2MXbPcj/io1AHAXiWiHNc3vCYFzFzb6abMcCSjQfBkWXsHh1ptuIkgj9uGhzYOgUkzAjkLZItYmO9LTMQlJsZMRNQEo11Gss65T5r6WDQBwCl+NVv2Fa9Jd8fa3LIJeAegMpB1IDigB8iB1nATQZoyHdXcxtq9PCNBF595UFu3Y2FeAlxy06auaHKuRqxFflSUaQyFzpNJIr5mv2R4A8ee3DF2Mduzw80RHUxWvujmAKy1e+DCQMIaT3fNND7pIJqZ3Vy2tIzzaoILk0mUw8mVaY7kesT/1kNT6V2iqkzjcEQdfmnfAtka3sCxDWPZ2ZHqbtnpKQbBKWrp9Ybo4IFArBTgvAQ1EDIZ2cXxsRco/st0infBYiXE41Zycriy6Vfzka7xFKZmb4+m/2/TuMSFE117uaWBWZPgD1xmpjnbjRkXZzYfTgrOvVlgFpFGHgjECBR27F5r2qzaE7PoXR1G0aWWR5cXfsFAPK4D6iqjPHd2PW++i07p9blorlmmilv++Si3NoSIBOgib6lhGjLdPErMChaIyvrBHl5eDc3BaQ6BfYDzMvROLcQlB9/SEhmx1URTs4TS/haS5HE90MVS2ghpODiyxdRHI4d6yA3nPz0K7YN4C3LdKnG4S3cvqc+65eZ6eCjX1OzH1xsaJNulyUIwh/4kqYW8C4mkUs8ObY2kmGt0tD+x4Xd5UE5OxTzGRd/xDvqI+3hWGlPXgKii0gnZ8mXiq0T5D8PaXDmAT1PD45XTaxT0DUJIyQrJm/sFp+zdRnyIXcjQZqMhA5dnJiZXr7a2WgPOq2z61vXrZ0iO+qEZR865m0bcMYii0GhVSfz1uGaVGDwl1kCmVl+vpr6/Rl8/OVlBQYHk9AYBc+jYn2qOBnYhW384bPIsPpZKvTpvos3ntmUxr6Imzoe6GBg6O2VNRtVkucf0qvRWQbyAxS8CPwxz+hABn1YfoT5MIinaAVkyKblPUNb3Li08JSRk8+Gc6OKE2KvU+SuZWD6/L2d+XunMhJNxqKGTk/Gk++StGyoWFkQIlomsEngY9q46IV2tfvYqNW1W0ZAEXCSDzYIyrMLW5nDDoSuaRI18in+syZUOW4jP6+RwkQZO5zeOhCo6OSllPDBwzQeyNgEZApaB7GkEpdXjlcPt9fXtSMl2hobOIYDDkdmT+QTvoqmR89erHnpiccdCOSyzSpBLGHCdCHUBsvdKSoabMqJuxVo0CMrgNoJY2xwApYWnDxvWKNTYhYy42Cn2C8mgN0/aCOE5mw9TfZZie2NLnspDMA8ry483OR/6IFTRWUlpJOtGj0ovzcJWqI3fCbbJ9h6BkJ6b/+qvX886Kma0uLqQFKSEZMcyvVozI4xaYv3jY4qL46ogAVk57saW3gmnUCB7bzz+/JmpjwrNAqxF/moUg99WnF4cIhDUTX/99QdFRZfJiJFgBYU+IX4spcCsM+cw3qRYQ0MzYZH19eFzGX/zaPr594rGis5nRoyNJ677WFh4sgn/fSUO3gACuacMEoF3VDSMiowIVqjGSAnxY3bZXd7RxOgEOp1SqqXHksH8qX+0ibuxkpLr+zPg7/hznxiL+4Iycc7rCg6msZmQPowOVlQznXWQdRmoeSPE99gZtnbFJeBUVVVfv+ZsZ2BuVYCLHz/jnHXO1VjJ2VnpnGnMLis24L+uJOAVwt2HZCvjU1LwJlEP0Gpo/eO/SyGEZEP1Ha9Vt4CoPuTOO8ytu4P6ZUPPRB2Jcnc1do0yhV3s6yRWcd5XcB7vaPOc95jfZTLrmAJcKbXafC4PyUhBe8Jziv3AJk41rpw7Yvh+7BxGRgbTn/X81tKtfFOPZo4LfluBw4DQ4sYWel261kk01/BQHjbQJ0W2hwXx+baPJ+TlMRU/nm6l+Ccst/OewuPao97eMmCdYLRP+/TQaJ1czi9sneC2AJuk8/aPx6juS55MojkxW3k/mmSnf/z4nBWX753Km9LBYCqsA2zDvDSjP8jwHsPhP+arxF7o6wMyK5uwaBWVfVwMbwt4+4JyvYOFu1HS61EbUNJMzw6i+bVmwgFHksLx32XnLrOHXrktLy/vZZ5ORYV2gF7Q4L5998uFSrNZ6lnqudA+11SJsQoI2mf2W8BnhXGPM6KIvRtYkV6/XhoIu6+BPu5sPhTuoH98posujdJBYFI/5hUVvSwq8p3S09a2th28Xxf2Vh6C4FmTL+55RYth6Oo+7f5Zxybo0aP2JBaCLxGDN6nbeDKQLTeZnUx1wgEGuvoe60MUUh6RmpdX9P1tpC8SmZdqbWMTFFYXNnhCYNiSJ5du0Gjqunequ7zsL4TZNo0+2odhM3iTCm+/X6BQKGngYunoxM6dzekHTgXqLmxgtRaVikBsf1nk6+tbhEQifQ9qWwcMhoW9LSyHx41Qv9Wj4lGtqzuqxZC1H2t69PTDh58rBEbzpeDBQr4QJQ3C9vlHdygTCOG1/bpaQIZCTYEjpszlIt/bt319OTZtG9ugwaKP8rxxA06lmWzS1W30m9m0SdY+08zLy2vhKWD/cozZtl6a68OVdGeGH2DUBjayykVt4xyJDvoib9/+HsnKQWsbW1u9qduXKyH4yNQgW617T2tUtxrIyG0FZt7eegBq28AuQdsfSBTbtV5VC+XXRq4NrI0Drt2pvMPe3qnvQVgy39SqqqoAve1FU5UCh8G+O4EFZtW6rMrQjsyjBaw5xTJmbVh85TE3aTtHhtoAKlrsD/SS3oDaJg8fY8u3ARGntr1VATq2dciXH+URMJe8a1m7CQRUtl/5Wtzi9rkuv0eSXC6ctWIIoEOCFQlcIJYXXu8+CJ4lupbPgW6KY8vTAza9F6kywlxmj729rKy9fcp+9dzIc+fSf4K4fGW+Yf20cOLgZfD1Ru1GXq7TYf20sPozrpO6/fJLJHJ7ZRJG5p9437E71bLk/eo7T/e/EeQrs3oNQjAiot/+j3xlJFaLi4qJgOu+WyO+WuJ/5n8DHxBM2mOCA/MAAAAASUVORK5CYII= 1x, /TeamProject-WatchCharm-Team2_105/assets/img_people_mobile@2x-bfcd39ae.png 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          class="hero-img-people-avatar"
+          src="/TeamProject-WatchCharm-Team2_105/assets/img_people_desktop-07de76b8.png"
+          alt="people avatars"
+        />
+      </picture>
+      <a href="#section-footer" class="hero-link-scroll">Scroll down</a>
+    </div>
+  </div>
+  <picture>
+    <source
+      srcset="/TeamProject-WatchCharm-Team2_105/assets/hero_desk-bf337df9.jpg 1x, /TeamProject-WatchCharm-Team2_105/assets/hero_desk@2x-dcb7846a.jpg 2x"
+      media="(min-width: 1280px)"
+    />
+    <source
+      srcset="/TeamProject-WatchCharm-Team2_105/assets/hero_tab-0ac6f6cf.jpg 1x, /TeamProject-WatchCharm-Team2_105/assets/hero_tab@2x-5b23ee56.jpg 2x"
+      media="(min-width: 768px)"
+    />
+    <source
+      srcset="/TeamProject-WatchCharm-Team2_105/assets/hero_mob-f1812839.jpg 1x, /TeamProject-WatchCharm-Team2_105/assets/hero_mob@2x-64b3d0af.jpg 2x"
+      media="(max-width: 767px)"
+    />
+    <img
+      src="/TeamProject-WatchCharm-Team2_105/assets/hero_desk-bf337df9.jpg"
+      alt="black watch"
+      class="hero-img-mainwatch"
+    />
+  </picture>
 </section>
 
     <section class="about-us container">

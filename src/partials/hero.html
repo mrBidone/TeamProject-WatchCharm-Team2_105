@@ -1,5 +1,68 @@
-<section class="hero container">
-  
-  <h2>hero-section</h2>
-  <!-- Як почнете працювати видаліть цей заголовок, бо він тут тільки для тесту -->
+<section class="hero-section container">
+  <div class="hero-wrapper">
+    <div class="hero-describe">
+      <h1 class="hero-title-main">
+        Welcome to our <span class="text-color-blue">collection</span> of
+        premium watches
+      </h1>
+      <p class="hero-text">
+        Our watches are not just timepieces, but also an expression of your
+        personality and lifestyle. From classic designs to modern ones, we have
+        a watch to suit every taste and occasion.
+      </p>
+    </div>
+    <div class="hero-wrapper-avatar-scroll">
+      <picture>
+        <source
+          srcset="
+            ./img/hero/desk/img_people_desktop.png    1x,
+            ./img/hero/desk/img_people_desktop@2x.png 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/hero/tab/img_people_tablet.png    1x,
+            ./img/hero/tab/img_people_tablet@2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/hero/mob/img_people_mobile.png    1x,
+            ./img/hero/mob/img_people_mobile@2x.png 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="hero-img-people-avatar"
+          src="./img/hero/desk/img_people_desktop.png"
+          alt="people avatars"
+        />
+      </picture>
+      <a href="#section-footer" class="hero-link-scroll">Scroll down</a>
+    </div>
+  </div>
+  <picture>
+    <source
+      srcset="
+        ./img/hero/desk/hero_desk.jpg    1x,
+        ./img/hero/desk/hero_desk@2x.jpg 2x
+      "
+      media="(min-width: 1280px)"
+    />
+    <source
+      srcset="./img/hero/tab/hero_tab.jpg 1x, ./img/hero/tab/hero_tab@2x.jpg 2x"
+      media="(min-width: 768px)"
+    />
+    <source
+      srcset="./img/hero/mob/hero_mob.jpg 1x, ./img/hero/mob/hero_mob@2x.jpg 2x"
+      media="(max-width: 767px)"
+    />
+    <img
+      src="./img/hero/desk/hero_desk.jpg"
+      alt="black watch"
+      class="hero-img-mainwatch"
+    />
+  </picture>
 </section>

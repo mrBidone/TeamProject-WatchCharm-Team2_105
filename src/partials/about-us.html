@@ -1,6 +1,48 @@
 <section class="about-us container">
-
-    <h2>about-us-section</h2>
-    <!-- Як почнете працювати видаліть цей заголовок, бо він тут тільки для тесту -->
-
+  <div class="section about-us-box-desk">
+    <div class="about-text-wrapper">
+      <h2 class="about-title">About Us</h2>
+      <p class="about-text about-text-first">
+        Welcome to our premium watch collection, where luxury and style meet
+        functionality and precision. Our selection of timepieces embodies the
+        very best in Swiss craftsmanship and engineering, ensuring that you'll
+        always have a reliable and stylish accessory on your wrist.
+      </p>
+      <p class="about-text">
+        At our premium watch collection, we believe that a watch is more than
+        just a timekeeping device &#8211; it's a statement piece that reflects
+        your personality and style. So why settle for anything less than the
+        best?
+      </p>
+      <a href="#catalog" class="about-link">View catalog</a>
+    </div>
+    <picture>
+      <source
+        srcset="
+          ./img/about/img_about_watch.jpg    1x,
+          ./img/about/img_about_watch@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/about/img_about_watch_tab.jpg    1x,
+          ./img/about/img_about_watch_tab@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/about/img_about_watch_mob.jpg    1x,
+          ./img/about/img_about_watch_mob@2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        src="./img/about/img_about_watch.jpg"
+        alt="black watch"
+        class="about-img-watch"
+      />
+    </picture>
+  </div>
 </section>

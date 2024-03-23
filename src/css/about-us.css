@@ -22,8 +22,12 @@
   color: var(--main-text-color);
 }
 
-.about-text-first {
+.about-text-item:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.about-text-list {
+  margin-bottom: 40px;
 }
 
 .about-link {
@@ -33,7 +37,6 @@
   border-radius: 16px;
   background-color: var(--accent-color);
   padding: 15px 37px 15px 38px;
-  margin-top: 40px;
   font-size: 14px;
   line-height: 1.29;
   text-align: center;
@@ -67,8 +70,8 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .about-link {
-    margin-top: 60px;
+  .about-text-list {
+    margin-bottom: 60px;
   }
 }
 

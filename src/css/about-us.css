@@ -1,5 +1,89 @@
-.about-us {
-    background-color: rgb(193, 63, 233);
+.about-text-wrapper {
+  padding: 40px 20px;
+  background-color: var(--card-bg-color);
+  border-radius: 30px;
+  max-width: 335px;
+  margin-bottom: 20px;
 }
 
-/* Коли почнете працювати видаліть цей стиль, він призначенний для тесту */
+.about-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--secondary-text-color);
+  margin-bottom: 28px;
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-text-color);
+}
+
+.about-text-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.about-text-list {
+  margin-bottom: 40px;
+}
+
+.about-link {
+  display: block;
+  width: 160px;
+  height: 48px;
+  border-radius: 16px;
+  background-color: var(--accent-color);
+  padding: 15px 37px 15px 38px;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: var(--light-text-color);
+  transition: background-color var(--default-duration) var(--timing-function);
+}
+
+.about-link:hover,
+.about-link:focus {
+  background-color: #1f3cd4;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-text-wrapper {
+    padding: 80px 60px;
+    border-radius: 50px;
+    max-width: 704px;
+    margin-bottom: 40px;
+  }
+
+  .about-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+
+  .about-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-text-list {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-us-box-desk {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-text-wrapper {
+    max-width: 580px;
+    max-height: 532px;
+    margin-bottom: 0;
+  }
+}

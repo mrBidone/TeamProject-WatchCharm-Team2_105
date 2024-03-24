@@ -126,7 +126,6 @@
 }
 
 .mobile-menu {
-  display: none;
   position: fixed;
   top: 0;
   right: 0;
@@ -141,15 +140,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transform: translateX(100%);
+  transition: transform var(--default-duration) var(--timing-function);
 }
 @media only screen and (min-width: 768px) {
   .mobile-menu {
     width: 330px;
   }
 }
-@media only screen and (max-width: 1279px) {
-  .mobile-menu.is-open {
-    display: block;
+@media only screen and (min-width: 1279px) {
+  .mobile-menu {
+    display: none;
   }
 }
 @media only screen and (min-resolution: 192dpi) {
@@ -161,6 +162,10 @@
       ),
       url('/img/header/mobile-menu-background@2x.jpg');
   }
+}
+
+.mobile-menu.is-open {
+  transform: translateX(0);
 }
 
 .mobile-menu-container {

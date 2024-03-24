@@ -1,5 +1,110 @@
-.footer {
-    background-color: rgb(63, 233, 63);
+.page-footer {
+  border-radius: 30px;
+  padding: 40px 28px 28px 28px;
+  background: #0c0c0c;
 }
-
-/* Коли почнете працювати видаліть цей стиль, він призначенний для тесту */
+.container-info {
+  margin-bottom: 92px;
+}
+.footer-logo {
+  display: block;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+.sotial-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.sotial-link {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #fbfbfb;
+  opacity: 0.8;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  transition: opasity 250ms;
+}
+.sotial-link:hover,
+.sotial-link:focus {
+  opacity: 1;
+}
+.telefon {
+  display: block;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  max-width: 152px;
+  max-height: 44px;
+  padding: 14px 0;
+  margin-bottom: 40px;
+}
+.text-info {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+.footer-page-nav {
+  display: flex;
+  gap: 49px;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(251, 251, 251, 0.1);
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 147px;
+  padding: 0;
+  gap: 8px 16px;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  color: #fbfbfb;
+}
+.adress {
+  font-weight: 500;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1.33;
+  color: #fbfbfb;
+}
+.text-rights-reserved {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+.rights-reserved-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.text-rights-link {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: right;
+  color: rgba(251, 251, 251, 0.5);
+}

@@ -11,6 +11,7 @@
 @media screen and (min-width: 768px) {
   .contact-us-title {
     margin-bottom: 40px;
+    font-size: 48px;
   }
 }
 .contact-us-text {
@@ -92,10 +93,12 @@
 
 .contact-us-input-wrapper-comment {
   margin-bottom: 28px;
+  height: 84px;
 }
 @media screen and (min-width: 768px) {
   .contact-us-input-wrapper-comment {
     margin-bottom: 32px;
+    height: 90px;
   }
 }
 .contact-us-comment {

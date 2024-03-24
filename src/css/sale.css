@@ -1,5 +1,166 @@
-.sale {
-    background-color: rgb(63, 69, 233);
+
+
+.sale-text {
+    color: #0C0C0C;
+    font-family: Gilroy;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+
 }
 
-/* Коли почнете працювати видаліть цей стиль, він призначенний для тесту */
+.sale-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.sale-colection {
+    border-radius: 16px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    background-color: #F3F3F3;
+    width: 80px;
+    height: 80px;
+}
+
+.sale-foto-big {
+    width: 335px;
+    height: 385px;
+    border-radius: 30px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    background-color: #F3F3F3;
+}
+
+.sale-foto {
+    padding: 50px;
+}
+
+.sale-mini {
+    padding: 13px 14px;
+}
+.sale-mini-foto {
+ width: 335px;
+}
+
+.foto-mini {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.section-text-sale {
+    /* width: 335px;
+    height: 561px; */
+    border-radius: 30px;
+    background-color: #3350E9;
+    justify-content: center;
+    padding: 48px 28px;
+}
+
+.product-text-comander {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.marq-text {
+    color: #FBFBFB;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    justify-content: center;
+    width: 279px;
+}
+
+.product-text {
+    color: rgba(251, 251, 251, 0.50);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+.sale-price {
+    color: #FBFBFB;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.02em;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: rgba(251, 251, 251, 0.10);
+}
+
+.sale-price {
+    /* width: 68px;
+    height: 32px; */
+}
+.border-price {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 28px;
+}
+
+.euro {
+    color: rgba(251, 251, 251, 0.50);
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration-line: strikethrough;
+}
+
+
+
+.garmin-text {
+    color: rgba(251, 251, 251, 0.70);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.02em;
+        width: 279px;
+        height: 161px;
+        margin-bottom: 28px;
+}
+
+.text-mini {
+display: flex;
+align-items: center;
+gap: 8px;
+flex-wrap: wrap;
+align-items: flex-end;
+}
+
+.mini-text-class{
+    color: #FBFBFB;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(251, 251, 251, 0.20);
+    padding: 8px 12px;
+
+}
+

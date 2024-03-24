@@ -1,5 +1,118 @@
 .header {
-  background-color: rgb(63, 151, 233);
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 74px;
+}
+@media only screen and (min-width: 768px) {
+  .header-container {
+    height: 92px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header-container {
+    height: 88px;
+  }
+}
+
+.navigation {
+  display: flex;
+}
+
+.logo {
+  letter-spacing: -0.02em;
+  color: var(--secondary-text-color);
+}
+@media only screen and (min-width: 768px) {
+  .logo {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .logo {
+    margin-right: 203px;
+  }
+}
+
+.hamburger-button {
+  background-color: transparent;
+  line-height: 0;
+  padding: 0;
+  border: none;
+}
+@media only screen and (min-width: 1280px) {
+  .hamburger-button {
+    display: none;
+  }
+}
+.hamburger-button-icon {
+  stroke: var(--secondary-text-color);
+  width: 34px;
+  height: 34px;
+}
+
+.nav-links-container {
+  display: none;
+  align-items: start;
+  gap: 40px;
+  /* color: var(--main-bg-color); */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+}
+@media only screen and (min-width: 1280px) {
+  .nav-links-container {
+    display: flex;
+  }
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link.is-active::after {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  left: 50%;
+  display: block;
+  content: '';
+  border: solid 4px var(--accent-color);
+  border-radius: 50%;
+  margin-top: 2px;
+  transform: translateX(-50%);
+}
+
+.social-links-container {
+  display: none;
+  gap: 10px;
+}
+@media only screen and (min-width: 1280px) {
+  .social-links-container {
+    display: flex;
+  }
+}
+.social-link-item {
+  border: 1px solid rgba(12, 12, 12, 0.1);
+  border-radius: 10px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+}
+
+.social-link-icon {
+  flex-basis: 20px;
+  height: 20px;
+  fill: var(--secondary-text-color);
 }
 
 .mobile-menu {

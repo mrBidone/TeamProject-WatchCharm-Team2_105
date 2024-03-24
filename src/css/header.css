@@ -164,7 +164,7 @@
   }
 }
 
-.mobile-menu.is-open {
+.is-hidden {
   transform: translateX(0);
 }
 

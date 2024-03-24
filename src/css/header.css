@@ -169,10 +169,8 @@
   padding: 20px 0 40px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
 }
-
 @media only screen and (min-width: 768px) {
   .mobile-menu-container {
     padding: 26px 0 50px;
@@ -186,12 +184,22 @@
   padding: 0;
   border: none;
   align-self: self-end;
+  margin-bottom: 186px;
+}
+@media only screen and (min-width: 768px) {
+  .mobile-menu-close-button {
+    margin-bottom: 244px;
+  }
 }
 
 .mobile-menu-close-button-icon {
   stroke: var(--main-bg-color);
   width: 34px;
   height: 34px;
+}
+
+.mobile-menu-navigation {
+  margin-bottom: auto;
 }
 
 .mobile-menu-nav-links-container {

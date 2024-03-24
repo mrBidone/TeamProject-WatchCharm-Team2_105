@@ -52,8 +52,8 @@
 }
 
 .section-text-sale {
-    /* width: 335px;
-    height: 561px; */
+    width: 335px;
+    /* height: 561px; */
     border-radius: 30px;
     background-color: #3350E9;
     justify-content: center;
@@ -164,3 +164,29 @@ align-items: flex-end;
 
 }
 
+@media only screen and (min-width: 768px) {
+.foto-mini {
+    gap:10px;
+    flex-direction: column;
+}
+
+.sale-colection {
+    border-radius: 20px;
+    width: 132px;
+    height: 132px;
+}
+.sale-foto-big {
+    border-radius: 50px;
+    width: 552px;
+    height: 558px;
+}
+.sale-foto {
+    padding: 80px 112px;
+}
+
+}
+
+
+@media only screen and (min-width: 1280px)  {
+
+}

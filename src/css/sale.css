@@ -256,4 +256,33 @@ align-items: flex-end;
 
 @media only screen and (min-width: 1280px)  {
 
+.sale-foto-big {
+    width: 428px;
+    height: 558px;
+}
+
+.sale-foto {
+    padding: 80px 50px;
+}
+
+.section-text-sale {
+    width: 530px;
+     height: 558px;
+}
+
+.garmin-text {
+    width: 410px;
+    height: 140px;
+}
+
+.marq-text {
+    width: 389px;
+}
+
+.sale-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
 }

@@ -39,6 +39,7 @@
 }
 
 .catalo-link-text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -83,7 +84,7 @@
 
 @media only screen and (min-width: 768px) {
   .catalog-link-link {
-    width: calc(100% / 2 - 16px);
+    width: calc((100% - 16px) / 2);
   }
   .catalog-link-title {
     font-size: 20px;
@@ -121,13 +122,17 @@
 
 @media only screen and (min-width: 1280px) {
   .catalog-link-link {
-    width: calc(100% / 3 - 23px);
+    width: calc((100% - 46px) / 3);
   }
 
   .catalog-image {
     width: 292px;
     height: 292px;
     margin-top: 30px;
+  }
+
+  .catalog-link {
+    column-gap: 23px;
   }
 
   .link-text {

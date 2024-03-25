@@ -1,5 +1,41 @@
-.advertisement {
-    background-color: rgb(233, 210, 63);
+/* Advertisement */
+.advertisement-wrapper {
+    border-radius: 30px;
+    width: 335px;
+    height: 363px;
+    background-color: #0c0c0c;
+    background-image: ;
 }
-
-/* Коли почнете працювати видаліть цей стиль, він призначенний для тесту */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.advertisement-text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+.text-color-gray {
+    color: rgba(251, 251, 251, 0.5);
+}
+.contact-link {
+    width: 160px;
+    height: 48px;
+    border-radius: 30px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fbfbfb;
+}

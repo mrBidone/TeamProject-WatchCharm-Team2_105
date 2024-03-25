@@ -1,5 +1,141 @@
-.catalog {
-    background-color: rgb(63, 233, 151);
+.catalog-link-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 8px;
+  margin-top: 0;
+  overflow: hidden;
 }
 
-/* Коли почнете працювати видаліть цей стиль, він призначенний для тесту */
+.catalog-link {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.catalog-link-link {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.cataloge-section {
+  padding-top: 60px;
+}
+
+.link-text {
+  padding: 28px 28px 24px;
+}
+
+.catalog-image {
+  width: 208px;
+  height: 226px;
+  margin: 42px auto 0;
+}
+
+.catalo-link-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+.catalog-title {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+@media only screen and (min-width: 375px) {
+  .catalog-btn {
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    background-color: #3350e9;
+    border: none;
+    color: #fbfbfb;
+    text-align: center;
+    margin-top: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 500ms;
+  }
+
+  .catalog-btn:focus,
+  .catalog-btn:hover {
+    background: #1f3cd4;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .image {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-link-link {
+    width: calc((100% - 16px) / 2);
+  }
+  .catalog-link-title {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .catalog-title {
+    margin-bottom: 40px;
+    font-size: 48px;
+  }
+
+  .catalog-link {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 32px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .catalog-btn {
+    display: none;
+  }
+
+  .catalog-image {
+    width: 268px;
+    height: 292px;
+    margin-top: 34px;
+  }
+
+  .link-text {
+    padding: 20px 32px 24px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .catalog-link-link {
+    width: calc((100% - 46px) / 3);
+  }
+
+  .catalog-image {
+    width: 292px;
+    height: 292px;
+    margin-top: 30px;
+  }
+
+  .catalog-link {
+    column-gap: 23px;
+  }
+
+  .link-text {
+    padding: 24px 32px;
+  }
+}

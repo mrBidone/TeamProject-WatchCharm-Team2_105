@@ -115,28 +115,25 @@
   outline: none;
 }
 
-.contact-us-button {
-  border-radius: 16px;
-  background-color: var(--accent-color);
-  padding: 12px 50px;
+.contact-us .btn {
   width: 134px;
   height: 42px;
-  display: block;
-  border: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  color: var(--light-text-color);
 }
+
 @media screen and (min-width: 768px) {
-  .contact-us-button {
+  .contact-us .btn {
     height: 52px;
-    max-width: 160px;
+    width: 160px;
   }
+}
+
+.contact-us-button {
+  background-color: var(--accent-color);
+  color: var(--light-text-color);
+  transition: background-color var(--timing-function) var(--default-duration);
 }
 
 .contact-us-button:hover,
 .contact-us-button:focus {
-  background-color: #1f3cd4;
+  background-color: var(--accent-color-hover);
 }

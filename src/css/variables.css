@@ -9,6 +9,7 @@
     --opacity-text-color: rgba(251, 251, 251, 0.5);
 
     --accent-color: #3350e9;
+    --accent-color-hover: #1F3CD4;
 
     --default-duration: 250ms;
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);

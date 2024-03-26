@@ -60,6 +60,7 @@ body {
   justify-content: center;
   width: 160px;
   height: 48px;
+  border: none;
   border-radius: 16px;
   font-size: 14px;
   line-height: 1.29;

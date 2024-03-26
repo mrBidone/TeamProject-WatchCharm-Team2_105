@@ -48,23 +48,17 @@
 
 @media only screen and (min-width: 375px) {
   .catalog-btn {
-    border-radius: 16px;
-    width: 160px;
-    height: 48px;
-    background-color: #3350e9;
-    border: none;
-    color: #fbfbfb;
-    text-align: center;
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
     margin-top: 40px;
-    display: block;
     margin-right: auto;
     margin-left: auto;
-    transition: 500ms;
+    transition: background-color var(--default-duration) var(--timing-function);
   }
 
   .catalog-btn:focus,
   .catalog-btn:hover {
-    background: #1f3cd4;
+    background-color: var(--accent-color-hover);
   }
 }
 

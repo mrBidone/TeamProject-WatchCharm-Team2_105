@@ -145,17 +145,17 @@
 }
 
 .stonewatch {
-  width: 335px;
+  max-width: 335px;
 }
 
 @media only screen and (min-width: 768px) {
   .stonewatch {
-      width: 704px;
+    width: 704px;
     }
 }
 @media only screen and (min-width: 1280px) {
   .stonewatch {
     border-radius: 50px;
-      width: 530px;
+    max-width: 530px;
     }
 }

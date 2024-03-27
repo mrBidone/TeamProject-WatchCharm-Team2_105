@@ -54,12 +54,12 @@ display: flex;
 gap: 16px;
 }
 .reviews-item {
-width: calc((100% - 16px) / 2);
+max-width: calc((100% - 16px) / 2);
 }
 }
 @media only screen and (min-width: 1280px) {
 .reviews-item {
-width: calc((100% - 40px) / 3);
+max-width: calc((100% - 40px) / 3);
 }
 .reviews-list {
 gap: 20px;

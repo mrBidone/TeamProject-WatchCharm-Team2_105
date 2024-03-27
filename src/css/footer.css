@@ -67,7 +67,6 @@
 .footer-nav-list {
   display: flex;
   flex-wrap: wrap;
-  width: 147px;
   padding: 0;
   gap: 8px 16px;
 }
@@ -109,6 +108,16 @@
   color: rgba(251, 251, 251, 0.5);
 }
 
+@media screen and (max-width: 374px) {
+  .adress {
+    align-self: center;
+  }
+}
+@media screen and (min-width: 375px) {
+  .footer-nav-list {
+    width: 147px;
+  }
+}
 @media screen and (min-width: 768px) {
   .page-footer {
     padding: 40px 40px 28px 40px;
